@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <style>
+                body {
+                        background-image: url("images.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                }
+        </style>
+
+</head>
+<h1> Welcome to the Registration Page </h1>
+
+<body style="text-align: center" ;>
+        <form name="Regform" method="post">
+                <fieldset>
+                        First name:
+                        <br>
+                        <input type="text" name="firstname" required maxlength="25" required pattern="[a-zA-Z]*" value="" required>
+                        <br>
+                        <br> Last name:
+                        <br>
+                        <input type="text" name="lastname" required maxlength="25" required pattern="[a-zA-Z]*" value="" required>
+                        <br>
+                        <br> Address :
+                        <br>
+                        <textarea rows="3" cols="40"></textarea>
+                        <br>
+                        <br> Email :
+                        <br>
+                        <input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        <br>
+                        <br> State:
+                        <br>
+                        <select>
+                                <option value="select state" value="" required> Select </option>
+                                <option value="Andhra Pradesh"> Andhra Pradesh </option>
+
+                                <option value="Madhya Pradesh"> Madhya Pradesh </option>
+                                <option value="Telangana"> Telangana </option>
+                                <option value="Tamil Nadu"> Tamil Nadu </option>
+                        </select>
+                        <br>
+                        <br> City :
+                        <br>
+                        <select>
+                                <option value="select city" value="" required> Select </option>
+                                <option value="Hyderabad"> Hyderabad </option>
+                                <option value="Chennai"> Chennai </option>
+                                <option value="Mumbai"> Mumbai </option>
+                                <option value="Vizag"> Vizag </option>
+                        </select>
+                        <br>
+                        <br> Phone :
+                        <br>
+                        <input type="number" name="Phone" required pattern="[0-9]}{10}" value="" required>
+                        <br>
+                        <br> Enrolled Course :
+                        <br>
+                        <select>
+                                <option value="select course " value="" required> Select Course </option>
+                                <option value="CSE"> CSE </option>
+                                <option value="ECE"> ECE </option>
+                                <option value="IT"> IT </option>
+                                <option value="Mech"> Mech </option>
+                                <option value="EEE"> EEE </option>
+                        </select>
+                        <br>
+                        <br> Marks Obtained :
+                        <br>
+                        <input type="number" name="" min="50" max="100" required>
+                        <br>
+                        <br>
+
+                        <input type="submit" value="Submit">
+                </fieldset>
+        </form>
+
+
+
+
+</body>
+
+</html>

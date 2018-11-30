@@ -1,0 +1,119 @@
+.
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        footer {
+            margin-top: 70px;
+        }
+
+        nav {
+
+            padding: 18px;
+
+
+        }
+
+        section {
+            background-image: url("bank1.jpg");
+            height: 500px;
+            width: 1400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        a {
+            padding: 15px;
+        }
+
+        a:hover {
+            color: black;
+            background-color: cyan;
+        }
+    </style>
+
+</head>
+
+
+<body style="background-color:beige;text-align: center">
+    
+    <b>
+        <h1 style="text-align:center; color: darkturquoise"> Welcome To Registration Page</h1>
+    </b>
+    
+
+
+            <nav style="background-color: lightyellow">
+                    <b><a href="bankpage.html.html"target="_self">  Home </a></b>
+        
+           
+           <b> <a href="addnewaccount.html" target="_self"> Registration</a> </b>
+            
+        
+            <b><a href="searchaccount.html" target="_self"> Search your account here</a></b>
+            <b><a href="viewaccount.html" target="_self">View your account</a>             </b> 
+        
+            <b><a href="viewallcustomers.html" target="_self"> View the customers </a></b>
+            <b><a href="updatecustomerform.html" target="_self"> Update customer form</a></b>
+            <b><a href="withdrawform.html"target="_self"> Withdraw form</a></b>
+            <b><a href="depositform.html"target="_self"> Deposit form</a></b>
+            <b><a href="fundtransfer.html"target="_self">  Transfer </a></b>
+            <b><a href="login.html"target="_self">  Login </a></b>
+    </nav>
+    <section>
+        <form>
+
+            <b>Account Holder Name :
+                <br>
+
+                <input type="text" name="Account Holder Name"  value="" required maxlength="25" required pattern="[a-zA-Z]*">
+            </b>
+            <br>
+            <br>
+            <b>Customer Email Id :
+                <br>
+                <input type="email" name="Customer Email id" value="" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            </b>
+            <br>
+            <br>
+            <b>Customer DOB :
+                <br>
+                <input type="date" name="Customer DOB" value="" required max="2000-11-29">
+            </b>
+            <br>
+            <br>
+            <b>Phone Number :
+                <br>
+                <input type="number" name="Phone Number" value="" required pattern="[0-9]{10}"> </b>
+            <br>
+            <br>
+            <b>Account Type :
+                <br>
+                <select>
+                    <option> Current </option>
+                    <option> Savings </option>
+                </select>
+                <br>
+                <br>
+
+                <input type="submit" value="submit">
+
+
+
+        </form>
+    </section>
+
+    <b>
+        <footer style="background-color: turquoise; text-align: center">
+            <p> For Queries mail
+            </p>
+            <p> pavankmr213@gmail.com</p>
+            <p>&copy; All rights reserved </p>
+    </b>
+    </footer>
+
+
+</body>
+
+</html>
